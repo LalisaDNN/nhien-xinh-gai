@@ -4,10 +4,11 @@ const contentContainer = document.getElementById("content-container");
 const videoContainer = document.getElementById("video-container");
 
 const texts = [
-  "Test 1",
-  "khiem dz",
-  "khiem pro",
-  "oki iem iu",
+  "Helluuu Nhien xinh gái nhé!!!",
+  "Đây là 1 web be bé tặng Nhien để cảm ơn Nhien đã giúp anh cười ha há mấy ngày qua nheee",
+  "Thực ra thì anh làm AI, khôm phải web, mà code AI nó khô khan lắm :< Nên web này anh cũng đi hỏi bạn với copy nhiều chỗ...",
+  "Mong là em thích nó :3",
+  "Và nhớ lưu lại web này để có gì anh gửi qua đây nhaaa"
 ];
 
 let index = 0;
