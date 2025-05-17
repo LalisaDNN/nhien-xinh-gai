@@ -5,7 +5,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-image: url('https://i.ibb.co/393mMfsX/back.png');
+    background-image: url('assets/back.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -50,15 +50,21 @@ body {
     animation: fade-in 1s ease forwards;
 }
 
+#video-container img {
+    width: 800px;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+}
+
 @keyframes fade-in {
     from {
         opacity: 0;
         transform: translateY(10px);
     }
+
     to {
         opacity: 1;
         transform: translateY(0);
     }
 }
-
-
